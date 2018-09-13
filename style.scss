@@ -1,5 +1,5 @@
 html {
-  .mobile-menu-open {
+  &.mobile-menu-open {
     @include respond-to(bs-tablet) {
       height: 100vh;
       overflow: hidden;
